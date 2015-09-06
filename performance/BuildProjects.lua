@@ -19,4 +19,5 @@ solution "gmsv_performance"
 		defines { "GMMODULE" }
 		files { "src/**.*", "../include/**.*" }
 		kind "SharedLib"
+		buildoptions "-std=c++11"
 		
